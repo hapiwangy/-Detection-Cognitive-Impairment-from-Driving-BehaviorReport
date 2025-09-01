@@ -1,0 +1,34 @@
+1. Trajectory Modeling
+- https://arxiv.org/pdf/2402.00732 
+    - use RMSE/ MAE/ MAPE to evaluate volume of traffic/people flow/ETA/TTE(Estimated time arrival/ Travel time estimation)
+    - next place/ abnormal detection: Accuracy?F1/Precision
+        - baseline different, and hard to replicated.
+    - H3 + transformer(TrajBERT、San Francisco GPS): encode GPS point into token than prediction
+    - GEO-Conv(dealing with arrival time):use road network information to establish graph, and learn the relation between time and sapce
+    - give example how different task and data
+    - conclusion
+        - task with ETA/ volume of traffic use RMSE/MAE/MAPE, classification task use Accuracy/ F1, many task need open-source baseline and codebase
+- https://arxiv.org/pdf/2403.14151 
+    - survey paper reltead to LLM in Trajectory data
+    - many related method/ dataset/ included
+    - brief overview in the Trajectory Data Management & Mining with LLM
+- https://arxiv.org/pdf/2410.02133
+- https://arxiv.org/pdf/2404.12460
+2. Time series modeling (irregular, sparse, multimodal health/behavioral)
+- https://proceedings.mlr.press/v225/xu23a/xu23a.pdf
+- https://arxiv.org/pdf/2410.21154
+- https://arxiv.org/pdf/2503.23167
+3. Large pretrained models for time-series
+- https://arxiv.org/abs/2403.07815
+    - Chronos-Bolt
+- https://arxiv.org/abs/2310.10688
+- https://arxiv.org/pdf/2310.08278
+- https://arxiv.org/pdf/2310.01728
+- https://arxiv.org/pdf/2402.02592
+- https://arxiv.org/pdf/2403.14735
+    - survey paper
+4. Digital biomarkers in aging, dementia, depression
+- https://www.thelancet.com/journals/lanhl/article/PIIS2666-7568%2825%2900044-3/fulltext
+- https://mhealth.jmir.org/2024/1/e40689
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10780278/
+- https://www.nature.com/articles/s41746-025-01640-z
